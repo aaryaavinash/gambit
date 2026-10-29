@@ -1,6 +1,6 @@
 // Marble, walnut and brass for the board, plus the Carrara -> Nero Marquina material transform for the black set.
-import { THREE } from '../../src/core/engine.js';
-import { bakeTexture, fbmNormal } from '../../src/core/textures.js';
+import { THREE } from './core/engine.js';
+import { bakeTexture, fbmNormal } from './core/textures.js';
 
 export const BRASS = new THREE.Color('#b89b6a');
 

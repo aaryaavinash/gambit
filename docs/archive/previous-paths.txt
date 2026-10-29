@@ -1,0 +1,19 @@
+// ORIGINAL (preserved, not deleted — disabled by comment): previous nested paths
+// import { THREE } from '../../src/core/engine.js';
+// import { Engine, THREE, damp, clamp, smooth, lerp, studioEnvironment } from '../../src/core/engine.js';
+// import { Assets, firstMesh } from '../../src/core/assets.js';
+// import { Pointer } from '../../src/core/input.js';
+// import { smoothScroll, gsap, reveal, elementProgress } from '../../src/core/scroll.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// import { preloader, cursor, magnetic } from '../../src/core/ui.js';
+// import { PlanarReflection } from '../../src/core/reflector.js';
+// import { VolumetricSpotEffect } from '../../src/core/volumetric.js';
+// const typeLoads = Object.entries(FILES_GLB).map(([type, file]) => assets.gltf(`models/gambit/${file}.glb`).then(g => { TYPES[type] = prepType(type, g.scene); }));
+// const farLoads = Object.keys(FILES_GLB).map(type => assets.gltf(`models/gambit/far-${type}.glb`).then(g => { FAR[type] = g.scene; }));
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('gambit', { theme: 'dark', corner: 'bl' });
+// import { THREE } from '../../src/core/engine.js';
+// import { bakeTexture, fbmNormal } from '../../src/core/textures.js';
+//   <link rel="stylesheet" href="./examples/gambit/style.css">
+//   <script type="module" src="./examples/gambit/main.js"></script>
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from './core/ui.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('gambit', { theme: 'dark', corner: 'bl' });

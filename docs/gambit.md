@@ -1,4 +1,4 @@
-# 12 · Gambit — "The Immortal Game, replayed in marble"
+# Gambit — "The Immortal Game, replayed in marble"
 Brand: **Gambit** — makers of hand-carved marble chess sets and a members' chess salon.
 
 ## Signature interaction
@@ -8,7 +8,7 @@ through the air, captured pieces topple, slide off and settle beside the board. 
 angles near the action, overhead at key moments, the final mating net framed). A side column shows the notation with the
 current move highlighted and one-line annotations ("Anderssen gives up both rooks"). After the replay, **free play**: drag
 any piece (raycast pick, lift with shadow, snap to squares) — no chess engine needed.
-Pieces: `models/gambit/{king,queen,bishop,knight,rook,pawn}.glb` are white Carrara marble. Make the black set from the same
+Pieces: `models/{king,queen,bishop,knight,rook,pawn}.glb` are white Carrara marble. Make the black set from the same
 models with a material transform (onBeforeCompile: remap base colour to nero marquina black with light/gold veins).
 Knights must face the opponent.
 

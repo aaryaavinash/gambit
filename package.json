@@ -1,7 +1,7 @@
 {
   "name": "gambit",
   "private": true,
-  "description": "Standalone Gambit world from Dioramas.",
+  "description": "A chess atelier and salon concept set around hand-carved marble sets and the memory of famous games.",
   "license": "MIT",
   "version": "0.1.0",
   "type": "module",

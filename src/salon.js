@@ -1,7 +1,7 @@
 // The salon: eleven more tables under eleven lamps, every one replaying the Immortal Game at a different move.
 // Everything here is instanced and shaded with a cheap lamp-pool model, and lives on layer 1 so the
 // planar reflection and the shadow map never pay for it.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 
 export const SPACING = 34;
 export const LAMP = new THREE.Vector3(-3.0, 15, 8.0);      // lamp offset from each table centre (same as our key light)

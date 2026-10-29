@@ -1,8 +1,10 @@
+import './tailwind.css';
 import { Engine, THREE, damp, clamp, smooth, lerp, studioEnvironment } from '../../src/core/engine.js';
 import { Assets, firstMesh } from '../../src/core/assets.js';
 import { Pointer } from '../../src/core/input.js';
 import { smoothScroll, gsap, reveal, elementProgress } from '../../src/core/scroll.js';
-import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+import { preloader, cursor, magnetic } from '../../src/core/ui.js';
 import { PlanarReflection } from '../../src/core/reflector.js';
 import { VolumetricSpotEffect } from '../../src/core/volumetric.js';
 import { DepthOfFieldEffect } from 'postprocessing';
@@ -1142,7 +1144,7 @@ function makeSalon() {
 function mulberry(a) { return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
 
 // ─── Boot ─────────────────────────────────────────────────────────────────────
-worldNav('gambit', { theme: 'dark', corner: 'bl' });
+// ORIGINAL (preserved, not deleted — disabled by comment): worldNav('gambit', { theme: 'dark', corner: 'bl' });
 cur = cursor({ color: '#dcc08a', blend: 'normal', size: 30 });
 magnetic();
 smoothScroll({ lerp: 0.08 });
